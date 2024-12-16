@@ -32,8 +32,8 @@ let cells = document.querySelectorAll('.cell')
 setInterval(function(){
     let colors_cookie = ''
     for(let i=0; i < cells.length; i++){
-            let colors_cell = getComputedStyle(cells[i]).getPropertyValue('background-color')
-            colors_cookie += colors_cells.indexOf(colors_cell)
+            // let colors_cell = getComputedStyle(cells[i]).getPropertyValue('background-color')
+            colors_cookie +=  `${cells[i].dataset.color}`
     }
     document.cookie = `colors_cells=${colors_cookie};`
     // console.log(document.cookie)
