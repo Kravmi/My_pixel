@@ -1,0 +1,69 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    display: flex;
+}
+
+.functional_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.color, .eraser>img, .filling>img, .save>img {
+    width: 40px;
+    height: 40px;
+    border: black 1px solid;
+    padding: 0;
+    margin: 0;
+}
+
+.color.red {
+    background-color: red;
+}
+
+.color.green {
+    background-color: green;
+}
+
+.color.blue {
+    background-color: blue;
+}
+
+.color.white {
+    background-color: white;
+}
+
+.color.yellow {
+    background-color: yellow;
+}
+
+.painting_box {
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    width: 800px;
+    height: 400px;
+}
+
+.cell {
+    background-color: gray;
+    border: black 1px solid;
+}
+
+.cell:hover {
+    opacity: 50%;
+}
+
+.filling {
+    margin-top: -5px;
+}
+
+.save {
+    margin-top: -5px;
+}
+
