@@ -1,0 +1,78 @@
+/* Не забудь подключить нужные шрифты. Удачи в разработке! */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_632/04050d135405619.61e745c61eed6.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    display: flex;
+}
+
+.logo>img {
+    width: 60px;
+}
+
+.buttons {
+    margin-top: 1em;
+    margin-left: 38em;
+    text-decoration: none;
+}
+
+.btn1 {
+    text-decoration: none;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 40px;
+    padding: 0.5em;
+}
+
+.btn2 {
+    text-decoration: none;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 40px;
+    margin-left: 1em;
+    padding: 0.5em;
+}
+
+.h_box {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 2em;
+    background-color: aliceblue;
+    border-radius: 40px;
+    padding: 0.5em;
+}
+
+.description {
+    display: flex;
+    width: 60vw;
+    margin-left: 20vw;
+    font-size: 1.5em;
+    background-color: aliceblue;
+    border-radius: 30px;
+    padding: 0.2em;
+}
+
+.btn1:hover {
+    background-color:bisque;
+}
+
+.btn2:hover {
+    background-color:bisque;
+}
