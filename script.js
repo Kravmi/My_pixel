@@ -32,7 +32,7 @@ let cells = document.querySelectorAll('.cell')
 setInterval(function(){
     let colors_cookie = ''
     for(let i=0; i < cells.length; i++){
-            colors_cell = getComputedStyle(cells[i]).getPropertyValue('background-color')
+            let colors_cell = getComputedStyle(cells[i]).getPropertyValue('background-color')
             colors_cookie += colors_cells.indexOf(colors_cell)
     }
     document.cookie = `colors_cells=${colors_cookie};`
